@@ -305,6 +305,11 @@ h6 {
     color: #303030;
 }
 
+.prev-events__link__btn{
+    min-height: 394px;
+    width: 557px;
+}
+
 .prev-events__item {
     min-height: 394px;
     background: #fff;
@@ -545,5 +550,6 @@ h6 {
     background: url("./img/bgtop.png") center top no-repeat , url("./img/bgbot.png") center bottom 150px no-repeat;
     z-index: -1;
     mix-blend-mode: luminosity;
+    
     
 }
