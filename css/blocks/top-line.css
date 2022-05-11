@@ -1,0 +1,13 @@
+.top-line__container {
+    /* margin-top: 12px; */
+    padding-bottom: 25px;
+}
+.top-line__title
+{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.1;
+    font-size: 72px;
+    line-height: 84px;
+    margin-bottom: 112px;
+}

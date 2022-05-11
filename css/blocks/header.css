@@ -1,0 +1,18 @@
+.header {
+    padding-top: 18px;
+    margin-bottom: 87px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-line__container > .header {
+    margin-bottom: 99px;
+}
+.header__col{
+    display: flex;
+    align-items: center;
+}
+.header__col--align--right{
+    justify-content: flex-end;
+
+}

@@ -1,0 +1,60 @@
+.prev-events {
+    margin-bottom: 48px;
+    display: flex;
+}
+.prev-event {
+    border-radius: 5px;
+    border-style: hidden;
+    background: #000;
+}
+
+.prev-event__link {
+    text-decoration: none;
+    height: 100%;
+    
+}
+.prev-event__link__btn {
+    display: flex;
+    height: 100%;
+}
+
+.prev-events__item {
+    min-height: 394px;
+    width: 50%;
+    margin-right: 24px;
+}
+.prev-events__item:last-child {
+    margin-right: 0;
+}
+.prev-events__item--new-year {
+    background: url(../../img/new_year.png) center center / cover no-repeat;
+}
+
+.prev-events__item--spring {
+    background: url(../../img/spring.png) center center / cover no-repeat;
+}
+
+.prev-event__content {
+    color: #fff;
+    padding: 25px;
+    padding-right: 80px;
+    padding-left: 31px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction:column;
+}
+.prev-event__discription {
+    font-size: 16px;
+    line-height: 21px;
+}
+.prev-event__date {
+    font-size: 14px;
+    margin-bottom: 13px;
+
+}
+.prev-event__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,37 @@
+.btn {
+    display: inline-block;
+    background: #8F00FF;
+    padding: 18px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #741BBA;
+}
+
+.btn--color--purple {
+    
+    background: #fff;
+    color: #8F00FF;
+    border: 1px solid #8F00FF;
+    padding: 18px 29px;
+    line-height: 16px;
+}
+.btn--color--transparent {
+    background: none;
+    border: 1px solid #fff;
+    padding: 17px 39px;
+
+}
+.btn--size--mid {
+    padding: 18px 40px;
+}
+
+.btn--color--purple:hover {
+    background: #8F00FF;
+    color: #fff;
+}

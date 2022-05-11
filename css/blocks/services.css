@@ -1,0 +1,43 @@
+
+.services {
+    
+    
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 65px;
+    align-items: center;
+
+    
+}
+
+.service__content {
+    display: flex;
+    padding: 18px 56px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.service__item {
+    display: flex;
+    
+    margin-bottom: 49px;
+    
+    
+}
+.service__item:last-child {
+    margin-bottom: 0;
+}
+.service__image {
+    width: 41%;
+    border-radius: 5px;
+}
+.service__title {
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: bold;
+}
+
+.service__discription {
+    font-size: 16px;
+    line-height: 27px;
+    min-width: 652px;
+}

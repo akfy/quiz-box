@@ -1,0 +1,26 @@
+.bread-crumbs__list {
+    display: flex;
+    align-items:center;
+}
+.bread-crumbs__item{
+    font-size: 14px;
+    line-height: 16px;
+    color: #9A9A9A;
+    margin-right: 4px;
+   
+}
+.bread-crumbs__link {
+    text-decoration-line: underline;
+   
+    
+}
+.bread-crumbs__item--active .bread-crumbs__link{
+    font-weight: bold;
+}
+.bread-crumbs__item::after {
+    content: "/";
+    
+}
+.bread-crumbs__item:last-child::after {
+    content: "";
+}
