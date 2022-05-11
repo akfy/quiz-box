@@ -1,0 +1,13 @@
+.botline {
+    padding: 90px 0;
+    background: #F4F5F5;
+}
+
+.botline__title {
+    color: #1A1B1E;
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: bold;
+    margin-bottom: 60px;
+   
+}
