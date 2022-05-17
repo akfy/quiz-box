@@ -6,6 +6,7 @@
     display: inline-block;
     vertical-align: middle;
     margin-right: 5px;
+    
 }
 .socials__item:last-child{
     margin-right: 0;
@@ -19,14 +20,18 @@
 }
 .socials__item--icon--vk .socials__link {
     background-image: url(../../img/vk.svg);
+    transition: 0.2s;
+    
 }
 .socials__item--icon--vk .socials__link:hover {
     background-image: url(../../img/vk-hover.svg);
+   
 }
 
 
 .socials__item--icon--telegram .socials__link {
     background-image: url(../../img/telegram.svg);
+    transition: 0.2s;
 }
 .socials__item--icon--telegram .socials__link:hover {
     background-image: url(../../img/t-hover.svg);
@@ -35,6 +40,7 @@
 
 .socials__item--icon--facebook .socials__link {
     background-image: url(../../img/f.svg);
+    transition: 0.2s;
 }
 .socials__item--icon--facebook .socials__link:hover {
     background-image: url(../../img/f-hover.svg);
@@ -43,6 +49,7 @@
 
 .socials__item--icon--instagram .socials__link {
     background-image: url(../../img/in.svg);
+    transition: 0.2s;
 }
 .socials__item--icon--instagram .socials__link:hover {
     background-image: url(../../img/in-hover.svg);

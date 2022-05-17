@@ -17,6 +17,7 @@
     align-items:center;
     justify-content: center;
     filter: grayscale(100%);
+    transition: 0.2s;
 }
 .partners__link:hover{
     filter: grayscale(0);

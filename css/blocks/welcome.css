@@ -1,0 +1,50 @@
+.welcome {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    
+    background: url("../../img/welcombg.png") center bottom -34px / cover no-repeat;
+}
+
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    animation: bounce 1.3s;
+}
+
+@keyframes bounce {
+    0% {
+        opacity: 0;
+        transform: translateY(0);
+    }
+
+    20% {
+        transform: translateY(-30px);
+    }
+
+    35% {
+        transform: translateY(0);
+
+    }
+
+    55% {
+        transform: translateY(-15px);
+    }
+
+    65% {
+        transform: translateY(0px);
+    }
+    70% {
+        transform: translateY(-4px);
+    }
+    80%
+    {
+        transform: translateY(0px);
+    }
+}

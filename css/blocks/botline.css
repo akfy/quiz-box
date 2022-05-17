@@ -2,6 +2,10 @@
     padding: 90px 0;
     background: #F4F5F5;
 }
+.botline--review
+{
+    padding: 74px 0;
+}
 
 .botline__title {
     color: #1A1B1E;

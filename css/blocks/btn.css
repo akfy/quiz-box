@@ -7,6 +7,7 @@
     text-decoration: none;
     font-size: 14px;
     text-transform: uppercase;
+    transition: 0.2s;
 }
 
 .btn:hover {
@@ -20,6 +21,7 @@
     border: 1px solid #8F00FF;
     padding: 18px 29px;
     line-height: 16px;
+   
 }
 .btn--color--transparent {
     background: none;
@@ -34,4 +36,22 @@
 .btn--color--purple:hover {
     background: #8F00FF;
     color: #fff;
+}
+
+.btn--color--black {
+    background: #2B2B2B;
+    color: #fff;
+    
+}
+.btn--color--black:hover {
+    background: #8E8E8E;
+}
+
+.btn--color--white {
+ 
+    color: #fff;
+}
+
+.btn--width {
+    padding: 18px 57px;
 }
