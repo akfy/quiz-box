@@ -51,6 +51,15 @@
     margin-top: 4px;
     font-weight: bold;
 }
+.contacts__dropdown-title__menu::after{
+    content: "";
+    display: block;
+    height: 30px;
+    left: 0;
+    right: 0;
+    top: -29px;
+    position: absolute;
+}
 .contacts__dropdown-title__list{
     display: flex;
     flex-direction: column;
