@@ -24,10 +24,10 @@
     width: 0;
     position: absolute;
     /* background: #ededed; */
-    border-bottom: 7px solid #ededed;
+    border-bottom: 10px solid #ededed;
     border-left: 10px solid transparent;
     border-right:10px solid transparent;
-    right:43px;
+    right:39px;
     bottom: 70px;
     
     display: block;
@@ -38,7 +38,7 @@
 }
 .contacts__dropdown-title__menu{
     position: absolute;
-    width: 157px;
+    width: 156px;
     height: 70px;
     font-size: 13px;
     line-height: 21px;
@@ -48,7 +48,7 @@
     top:100%;
     display: none;
     margin-left: 32px;
-    margin-top: 2px;
+    margin-top: 4px;
     font-weight: bold;
 }
 .contacts__dropdown-title__list{
